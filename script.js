@@ -21,7 +21,7 @@ const issIcon = L.icon({
 // Conexion a la API
 let marker = null
 const actualizar = () => {
-  const api_url ='http://api.open-notify.org/iss-now.json';
+  const api_url ='https://api.wheretheiss.at/v1/satellites/25544';
   fetch(api_url)
       .then(res => res.json())
       .then(data => {
@@ -30,7 +30,7 @@ const actualizar = () => {
           mymap.removeLayer(isscirc);
 
         }
-        const {latitude, longitude} = data.iss_position;
+        const {latitude, longitude} = data;
         marker = L.marker([latitude, longitude], { icon: issIcon });
         isscirc = L.circle([latitude, longitude], 1400000, {
           color: 'red',
