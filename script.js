@@ -27,7 +27,7 @@ const actualizar = () => {
       .then(data => {
         if (marker){
           mymap.removeLayer(marker);
-          mymap.removeLayer(isscirc)
+          mymap.removeLayer(isscirc);
 
         }
         const {latitude, longitude} = data.iss_position;
