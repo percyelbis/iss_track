@@ -1,0 +1,10 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #2974e4;
+}
+#issMap{
+  height: 600px;
+  height: 100vh;
+}
