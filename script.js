@@ -12,7 +12,7 @@ tiles.addTo(mymap);
 
 // Icon
 const issIcon = L.icon({
-  iconUrl: 'https://www.flaticon.com/svg/static/icons/svg/1086/1086061.svg',
+  iconUrl: 'https://github.com/percyelbis/iss_track/blob/main/images/icon.png',
   iconSize: [50, 32],
   iconAnchor: [25, 16]
 });
