@@ -12,7 +12,7 @@ tiles.addTo(mymap);
 
 // Icon
 const issIcon = L.icon({
-  iconUrl: 'https://github.com/percyelbis/iss_track/blob/main/images/icon.png',
+  iconUrl: 'https://raw.githubusercontent.com/percyelbis/iss_track/main/images/icon.png',
   iconSize: [50, 32],
   iconAnchor: [25, 16]
 });
